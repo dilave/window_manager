@@ -25,7 +25,9 @@ const kWindowEventMove = 'move';
 const kWindowEventMoved = 'moved';
 const kWindowEventEnterFullScreen = 'enter-full-screen';
 const kWindowEventLeaveFullScreen = 'leave-full-screen';
-
+const kWindowEventTaskbarCreate = 'taskbar-create';
+const kWindowEventDeviceShutdown = 'device-shutdown';
+const kWindowEventUserSessionDisconnect = 'user-session-disconnect';
 const kWindowEventDocked = 'docked';
 const kWindowEventUndocked = 'undocked';
 
@@ -69,6 +71,10 @@ class WindowManager {
         kWindowEventMoved: listener.onWindowMoved,
         kWindowEventEnterFullScreen: listener.onWindowEnterFullScreen,
         kWindowEventLeaveFullScreen: listener.onWindowLeaveFullScreen,
+        kWindowEventTaskbarCreate: listener.onWindowTaskbarCreate,
+        kWindowEventDeviceShutdown: listener.onWindowDeviceShutdown,
+        kWindowEventUserSessionDisconnect:
+            listener.onWindowUserSessionDisconnect,
         kWindowEventDocked: listener.onWindowDocked,
         kWindowEventUndocked: listener.onWindowUndocked,
       };
