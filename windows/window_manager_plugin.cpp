@@ -324,7 +324,7 @@ std::optional<LRESULT> WindowManagerPlugin::HandleWindowProc(HWND hWnd,
            flutter::EncodableValue(true)}};
       window_manager->SetAlwaysOnBottom(args);
 	  }
-  } else if(WM_TASKBARCREATED == message){//task bar create
+  } else if(WM_TASKBARCREATED == message){
      _EmitEvent("taskbar-create");
   } else if (WM_QUERYENDSESSION == message){
      _EmitEvent("device-shutdown");
