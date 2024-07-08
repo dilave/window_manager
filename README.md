@@ -146,7 +146,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  window_manager: ^0.3.7
+  window_manager: ^0.3.9
 ```
 
 Or
@@ -504,11 +504,12 @@ class _HomePageState extends State<HomePage> with WindowListener {
 
 ## Articles
 
-- [Click the dock icon to restore after closing the window](https://leanflutter.org/blog/click-dock-icon-to-restore-after-closing-the-window)
-- [Making the app single-instanced](https://leanflutter.org/blog/making-the-app-single-instanced)
+- [Click the dock icon to restore after closing the window](https://leanflutter.dev/tips-and-tricks/002-click-dock-icon-to-restore-after-closing-the-window/)
+- [Making the app single-instanced](https://leanflutter.dev/tips-and-tricks/001-making-the-app-single-instanced/)
 
 ## Who's using it?
 
+- [Airclap](https://airclap.app/) - Send any file to any device. cross platform, ultra fast and easy to use.
 - [AuthPass](https://authpass.app/) - Password Manager based on Flutter for all platforms. Keepass 2.x (kdbx 3.x) compatible.
 - [Biyi (比译)](https://biyidev.com/) - A convenient translation and dictionary app written in dart / Flutter.
 - [BlueBubbles](https://github.com/BlueBubblesApp/bluebubbles-app) - BlueBubbles is an ecosystem of apps bringing iMessage to Android, Windows, and Linux
